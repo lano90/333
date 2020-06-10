@@ -354,7 +354,7 @@ if(message.content === prefix + "spam off") {
 
 
 
-client.login(process.env.KahTOKEN);
+client.login('NzIwMzcyNzMxNzY5NjUxMjkw.XuFClw.sLlCOh0cKes-BglQMXNpEvCREbw');
 client2.login(process.env.KahTOKEN2);
 client3.login(process.env.KahTOKEN3);
 client4.login(process.env.KahTOKEN4);

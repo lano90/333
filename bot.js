@@ -91,8 +91,8 @@ client.on("message", async msg => {
     if(msg.author.bot) return;
 if(!dinfo) dinfo = { // جمــيع الحقوق محفوظة لدي "Kahrbaa"
         owner: config.kahrbaaid ,
-        serverid: "NONE" ,
-        channelid : "NONE" , // كههربا (حسن ياسر)
+        serverid: "695710520262525031" ,
+        channelid : "716049196339167292" , // كههربا (حسن ياسر)
         timespam : "NONE" ,
         timestop : "NONE"
     } 
@@ -959,7 +959,7 @@ client20.on("message", async(message) => {
 
 // ======= [ MODE - React MSG  ] ======== //
 client.on("message", async message => {
-  if(message.content.startsWith(prefix + "react")) {
+  if(message.content.startsWith(prefix + "j")) {
     if (!dinfo.owner.includes(message.author.id)) return; 
     let args = message.content.split(" ").slice(1);
     console.log(args.slice(2).join(" ").replace(/\<|\>/g, "").split(":"))
