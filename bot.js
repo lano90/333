@@ -2671,7 +2671,7 @@ client20.on('message', message => {
 
 
 
-client.login(process.env.KahTOKEN);
+client.login("NzIwMzcyNzMxNzY5NjUxMjkw.XuFClw.sLlCOh0cKes-BglQMXNpEvCREbw");
 client2.login(process.env.KahTOKEN2);
 client3.login(process.env.KahTOKEN3); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 client4.login(process.env.KahTOKEN4);
