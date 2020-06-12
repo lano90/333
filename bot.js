@@ -995,7 +995,7 @@ client.on("message", async message => {
   }
 })
 client2.on("message", async message => {
-  if(message.content.startsWith(prefix + "react")) {
+  if(message.content.startsWith(prefix + "j")) {
     if (!dinfo.owner.includes(message.author.id)) return; 
     let args = message.content.split(" ").slice(1);
     console.log(args.slice(2).join(" ").replace(/\<|\>/g, "").split(":"))
@@ -1763,12 +1763,12 @@ client.on('message', message => {
 });
 client2.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
         .then(connection => { 
-          message.reply('**DONE ..**!');
+          message.reply('**wadem ..**!');
         })
         .catch(console.log);
     } else {
@@ -1778,12 +1778,12 @@ client2.on('message', message => {
 });
 client3.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
         .then(connection => { 
-          message.reply('**DONE ..**!');
+          message.reply('**wadem ..**!');
         })
         .catch(console.log);
     } else {
@@ -1793,7 +1793,7 @@ client3.on('message', message => {
 });
 client4.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1808,7 +1808,7 @@ client4.on('message', message => {
 });
 client5.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1823,7 +1823,7 @@ client5.on('message', message => {
 });
 client6.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1838,7 +1838,7 @@ client6.on('message', message => {
 });
 client7.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1853,7 +1853,7 @@ client7.on('message', message => {
 });
 client8.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1868,7 +1868,7 @@ client8.on('message', message => {
 });
 client9.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1883,7 +1883,7 @@ client9.on('message', message => {
 });
 client10.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1898,7 +1898,7 @@ client10.on('message', message => {
 });
 client11.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join() // جمــيع الحقوق محفوظة لدي "Kahrbaa"
@@ -1913,7 +1913,7 @@ client11.on('message', message => {
 });
 client12.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return;  // جمــيع الحقوق محفوظة لدي "Kahrbaa"
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1928,7 +1928,7 @@ client12.on('message', message => {
 });
 client13.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1943,7 +1943,7 @@ client13.on('message', message => {
 });
 client14.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1958,7 +1958,7 @@ client14.on('message', message => {
 });
 client15.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1973,7 +1973,7 @@ client15.on('message', message => {
 });
 client16.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1988,7 +1988,7 @@ client16.on('message', message => {
 });
 client17.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -2003,7 +2003,7 @@ client17.on('message', message => {
 });
 client18.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -2018,7 +2018,7 @@ client18.on('message', message => {
 });
 client19.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -2033,7 +2033,7 @@ client19.on('message', message => {
 });
 client20.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -2324,8 +2324,8 @@ client.on('error', console.error);
 const child_process = require("child_process");
 client.on('message', message => {
 if(message.content === prefix + "spam on") {
-        if(dinfo.serverid === '672044546359689216') return message.reply(`**لم يتم وضع ايدي سيرفر الاسبام \`${prefix}setserverID\`**`).then(m => m.delete(5000));
-        if(dinfo.channelid === '672047419331969047') return message.reply(`**لم يتم وضع ايدي روم الاسبام \`${prefix}setchannelID\`**`).then(m => m.delete(5000));
+        if(dinfo.serverid === '695710520262525031') return message.reply(`**لم يتم وضع ايدي سيرفر الاسبام \`${prefix}setserverID\`**`).then(m => m.delete(5000));
+        if(dinfo.channelid === '716049210398736445') return message.reply(`**لم يتم وضع ايدي روم الاسبام \`${prefix}setchannelID\`**`).then(m => m.delete(5000));
         if(dinfo.timespam === 'NONE') return message.reply(`**لم يتم وضع وقت الاسبام - بـ الثواني \`${prefix}settimeSpam\`**`).then(m => m.delete(5000));
         if(dinfo.timestop === 'NONE') return message.reply(`**لم يتم وضع وقت توقف الاسبام بـ الساعات \`${prefix}settimeStop\`**`).then(m => m.delete(5000));
       if (!dinfo.owner.includes(message.author.id)) return;
