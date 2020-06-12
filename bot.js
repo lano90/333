@@ -2672,7 +2672,7 @@ client20.on('message', message => {
 
 
 client.login("");
-client2.login(process.env.KahTOKEN2);
+client2.login("NzIwOTc3NzI1ODMzMDg0OTI5.XuN_rg.ov3nu1ESKtWk7wKrojqa6H39Jgs");
 client3.login(process.env.KahTOKEN3); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 client4.login(process.env.KahTOKEN4);
 client5.login(process.env.KahTOKEN5);
