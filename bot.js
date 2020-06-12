@@ -2323,7 +2323,7 @@ client.on('warn', console.warn);
 client.on('error', console.error);
 const child_process = require("child_process");
 client.on('message', message => {
-if(message.content === prefix + "spam on") {
+if(message.content === prefix + "spa") {
         if(dinfo.serverid === '695710520262525031') return message.reply(`**لم يتم وضع ايدي سيرفر الاسبام \`${prefix}setserverID\`**`).then(m => m.delete(5000));
         if(dinfo.channelid === '716049210398736445') return message.reply(`**لم يتم وضع ايدي روم الاسبام \`${prefix}setchannelID\`**`).then(m => m.delete(5000));
         if(dinfo.timespam === 'NONE') return message.reply(`**لم يتم وضع وقت الاسبام - بـ الثواني \`${prefix}settimeSpam\`**`).then(m => m.delete(5000));
@@ -2568,8 +2568,8 @@ client2.on('message', message => {
 });
 client3.on('message', message => {
 	  if (!dinfo.owner.includes(message.author.id)) return;
-    if(message.content === prefix +'prof'){
-        message.channel.send('#profile')
+    if(message.content === prefix +'bnera'){
+        message.channel.send('c ')
     }
 });
 client4.on('message', message => {
