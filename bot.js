@@ -170,8 +170,8 @@ if(!dinfo) dinfo = { // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 client.on("message", async message => {
 if(message.content === prefix + "reset") {
       if (!dinfo.owner.includes(message.author.id)) return; // جمــيع الحقوق محفوظة لدي "Kahrbaa"
-          dinfo.serverid = "NONE"
-          dinfo.channelid = "NONE"
+          dinfo.serverid = "672044546359689216"
+          dinfo.channelid = "718451862684303371"
           dinfo.timespam = "NONE" // جمــيع الحقوق محفوظة لدي "Kahrbaa"
           dinfo.timestop = "NONE"
           message.channel.send(`**⚠️ restsettings , <@${dinfo.owner}>**`);
@@ -2324,8 +2324,8 @@ client.on('error', console.error);
 const child_process = require("child_process");
 client.on('message', message => {
 if(message.content === prefix + "spam on") {
-        if(dinfo.serverid === 'NONE') return message.reply(`**لم يتم وضع ايدي سيرفر الاسبام \`${prefix}setserverID\`**`).then(m => m.delete(5000));
-        if(dinfo.channelid === 'NONE') return message.reply(`**لم يتم وضع ايدي روم الاسبام \`${prefix}setchannelID\`**`).then(m => m.delete(5000));
+        if(dinfo.serverid === '672044546359689216') return message.reply(`**لم يتم وضع ايدي سيرفر الاسبام \`${prefix}setserverID\`**`).then(m => m.delete(5000));
+        if(dinfo.channelid === '672047419331969047') return message.reply(`**لم يتم وضع ايدي روم الاسبام \`${prefix}setchannelID\`**`).then(m => m.delete(5000));
         if(dinfo.timespam === 'NONE') return message.reply(`**لم يتم وضع وقت الاسبام - بـ الثواني \`${prefix}settimeSpam\`**`).then(m => m.delete(5000));
         if(dinfo.timestop === 'NONE') return message.reply(`**لم يتم وضع وقت توقف الاسبام بـ الساعات \`${prefix}settimeStop\`**`).then(m => m.delete(5000));
       if (!dinfo.owner.includes(message.author.id)) return;
@@ -2671,7 +2671,7 @@ client20.on('message', message => {
 
 
 
-client.login("NzIwMzcyNzMxNzY5NjUxMjkw.XuFClw.sLlCOh0cKes-BglQMXNpEvCREbw");
+client.login("");
 client2.login(process.env.KahTOKEN2);
 client3.login(process.env.KahTOKEN3); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 client4.login(process.env.KahTOKEN4);
