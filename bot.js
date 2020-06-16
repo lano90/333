@@ -91,8 +91,8 @@ client.on("message", async msg => {
     if(msg.author.bot) return;
 if(!dinfo) dinfo = { // جمــيع الحقوق محفوظة لدي "Kahrbaa"
         owner: config.kahrbaaid ,
-        serverid: "695710520262525031" ,
-        channelid : "716049196339167292" , // كههربا (حسن ياسر)
+        serverid: "NONE" ,
+        channelid : "NONE" , // كههربا (حسن ياسر)
         timespam : "NONE" ,
         timestop : "NONE"
     } 
@@ -170,8 +170,8 @@ if(!dinfo) dinfo = { // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 client.on("message", async message => {
 if(message.content === prefix + "reset") {
       if (!dinfo.owner.includes(message.author.id)) return; // جمــيع الحقوق محفوظة لدي "Kahrbaa"
-          dinfo.serverid = "672044546359689216"
-          dinfo.channelid = "718451862684303371"
+          dinfo.serverid = "NONE"
+          dinfo.channelid = "NONE"
           dinfo.timespam = "NONE" // جمــيع الحقوق محفوظة لدي "Kahrbaa"
           dinfo.timestop = "NONE"
           message.channel.send(`**⚠️ restsettings , <@${dinfo.owner}>**`);
@@ -1748,7 +1748,7 @@ async function addFriend(id, message) {
 // ======= [ StayVoice - MODE  ] ======== //
 client.on('message', message => {
   if (!message.guild) return;
-  if (message.content === prefix + 'stayvoice') {
+  if (message.content === prefix + 'waravoice') {
   if (!dinfo.owner.includes(message.author.id)) return; 
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -1768,7 +1768,7 @@ client2.on('message', message => {
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
         .then(connection => { 
-          message.reply('**wadem ..**!');
+          message.reply('**DONE ..**!');
         })
         .catch(console.log);
     } else {
@@ -1783,7 +1783,7 @@ client3.on('message', message => {
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
         .then(connection => { 
-          message.reply('**wadem ..**!');
+          message.reply('**DONE ..**!');
         })
         .catch(console.log);
     } else {
@@ -2324,8 +2324,8 @@ client.on('error', console.error);
 const child_process = require("child_process");
 client.on('message', message => {
 if(message.content === prefix + "spa") {
-        if(dinfo.serverid === '695710520262525031') return message.reply(`**لم يتم وضع ايدي سيرفر الاسبام \`${prefix}setserverID\`**`).then(m => m.delete(5000));
-        if(dinfo.channelid === '716049210398736445') return message.reply(`**لم يتم وضع ايدي روم الاسبام \`${prefix}setchannelID\`**`).then(m => m.delete(5000));
+        if(dinfo.serverid === 'NONE') return message.reply(`**لم يتم وضع ايدي سيرفر الاسبام \`${prefix}setserverID\`**`).then(m => m.delete(5000));
+        if(dinfo.channelid === 'NONE') return message.reply(`**لم يتم وضع ايدي روم الاسبام \`${prefix}setchannelID\`**`).then(m => m.delete(5000));
         if(dinfo.timespam === 'NONE') return message.reply(`**لم يتم وضع وقت الاسبام - بـ الثواني \`${prefix}settimeSpam\`**`).then(m => m.delete(5000));
         if(dinfo.timestop === 'NONE') return message.reply(`**لم يتم وضع وقت توقف الاسبام بـ الساعات \`${prefix}settimeStop\`**`).then(m => m.delete(5000));
       if (!dinfo.owner.includes(message.author.id)) return;
@@ -2568,8 +2568,8 @@ client2.on('message', message => {
 });
 client3.on('message', message => {
 	  if (!dinfo.owner.includes(message.author.id)) return;
-    if(message.content === prefix +'bnera'){
-        message.channel.send('c ')
+    if(message.content === prefix +'prof'){
+        message.channel.send('#profile')
     }
 });
 client4.on('message', message => {
@@ -2672,7 +2672,7 @@ client20.on('message', message => {
 
 
 client.login("");
-client2.login("NzIwOTc3NzI1ODMzMDg0OTI5.XuN_rg.ov3nu1ESKtWk7wKrojqa6H39Jgs");
+client2.login("");
 client3.login(process.env.KahTOKEN3); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 client4.login(process.env.KahTOKEN4);
 client5.login(process.env.KahTOKEN5);
