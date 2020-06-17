@@ -3843,7 +3843,7 @@ client20.on("message", message => {
 
 // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 
-client.login("NzIyNTY2OTkwMTQ5MTg5NzIz.Xuk9cw.gh8-BpFIlfqQPWahL539ghwruy0");
+client.login("");
 client2.login("");
 client3.login(process.env.KahTOKEN3); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 client4.login(process.env.KahTOKEN4);
