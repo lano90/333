@@ -9,7 +9,7 @@ setInterval(() => {
   http.get(`http://spam-1-20.glitch.me/`);
 }, 280000);
 
-// طبعا الكود هيبقا صعب انك تفهم لوحدك لنو معقد شويتين لكن فكرتو سهلة وحاولت اوفرلكم حاجات كتير مثل انك تقدر تشغل 20 توكانات ف الكود ده
+// 20 token dane   
 //
 const Discord = require("discord.js");
 const Canvas = require("canvas");
