@@ -3078,6 +3078,236 @@ client20.on("message", message => {
     }
   }
 });
+
+
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+client20.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "waravoice") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+message.reply("**DONE ..**!");
+})
+.catch(console.log);
+} else {
+message.reply("**- لازم تخش روم صوتي!**");
+}
+}
+});
+
+
+
+
 // ======= [ StayVoice - MODE END  ] ======== //
 
 // ======= [ RANDOM - AVATAR  ] ======== //
@@ -3863,3 +4093,4 @@ client17.login(process.env.KahTOKEN17);
 client18.login(process.env.KahTOKEN18);
 client19.login(process.env.KahTOKEN19);
 client20.login(process.env.KahTOKEN20);
+
