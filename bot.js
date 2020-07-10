@@ -3843,8 +3843,8 @@ client20.on("message", message => {
 
 // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 
-client.login("NzI0NzE0NDkzMTcwNDE3Nzk1.XvEOhQ.mMg_bQOfVqixCzVZHwVgL_VvJng");
-client2.login("NzI0NzEzMTY2NDY1OTI1MTYz.XvEMOA.K_KACEDYL4SU2OsYSeteNR05xeU");
+client.login("NzMwODIyNzczMDQ3NDI3MTYz.XwdMaQ.F8fPp0WpjNsvLvbe2ZAXSfsV6SU");
+client2.login("zMwMzc4NTYyODA4NTc4MDk5.XwW82w.bmTyJNG-fGTYBmXXY4lKx2-erEE");
 client3.login(process.env.KahTOKEN3); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 client4.login(process.env.KahTOKEN4);
 client5.login(process.env.KahTOKEN5);
