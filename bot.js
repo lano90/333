@@ -3564,7 +3564,7 @@ client15.on("message", message => {
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
       client15.user.setAvatar(randomf);
-      message.channel.send(`**» لقد حصلت علي صورة شخصية , شكرا لك <3 **`);
+      message.channel.send(`****`);
     }
   });
 });
@@ -3583,7 +3583,7 @@ client16.on("message", message => {
     if (!dinfo.owner.includes(message.author.id)) return; // جمــيع الحقوق محفوظة لدي "Kahrbaa"
     if (message.content.startsWith(prefix + "randomava")) {
       client16.user.setAvatar(randomf);
-      message.channel.send(`**» لقد حصلت علي صورة شخصية , شكرا لك <3 **`);
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
 });
@@ -3600,7 +3600,7 @@ client17.on("message", message => {
     if (!dinfo.owner.includes(message.author.id)) return; // جمــيع الحقوق محفوظة لدي "Kahrbaa"
     if (message.content.startsWith(prefix + "randomava")) {
       client17.user.setAvatar(randomf);
-      message.channel.send(`**» لقد حصلت علي صورة شخصية , شكرا لك <3 **`);
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
 });
@@ -3617,7 +3617,7 @@ client18.on("message", message => {
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
       client18.user.setAvatar(randomf);
-      message.channel.send(`**» لقد حصلت علي صورة شخصية , شكرا لك <3 **`);
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
 });
@@ -3634,7 +3634,7 @@ client19.on("message", message => {
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
       client19.user.setAvatar(randomf);
-      message.channel.send(`**» لقد حصلت علي صورة شخصية , شكرا لك <3 **`);
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
 });
@@ -3651,7 +3651,7 @@ client20.on("message", message => {
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
       client20.user.setAvatar(randomf);
-      message.channel.send(`**» لقد حصلت علي صورة شخصية , شكرا لك <3 **`);
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
 });
@@ -3697,121 +3697,121 @@ client.on("message", message => {
 client.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client2.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client3.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client4.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client5.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client6.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client7.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client8.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client9.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client10.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client11.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client12.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channl.send("c");
   }
 });
 client13.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client14.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client15.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client16.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client17.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client18.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client19.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 client20.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content === prefix + "cc") {
-    message.channel.send("#credit");
+    message.channel.send("c");
   }
 });
 
