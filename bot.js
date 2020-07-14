@@ -2765,7 +2765,7 @@ client.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2781,7 +2781,7 @@ client2.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2797,7 +2797,7 @@ client3.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2813,7 +2813,7 @@ client4.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2829,7 +2829,7 @@ client5.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2845,7 +2845,7 @@ client6.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2861,7 +2861,7 @@ client7.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2877,7 +2877,7 @@ client8.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2893,7 +2893,7 @@ client9.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2909,7 +2909,7 @@ client10.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2926,7 +2926,7 @@ client11.on("message", message => {
       message.member.voiceChannel
         .join() // جمــيع الحقوق محفوظة لدي "Kahrbaa"
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2942,7 +2942,7 @@ client12.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2958,7 +2958,7 @@ client13.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2974,7 +2974,7 @@ client14.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -2990,7 +2990,7 @@ client15.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -3006,7 +3006,7 @@ client16.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -3022,7 +3022,7 @@ client17.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -3038,7 +3038,7 @@ client18.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -3054,7 +3054,7 @@ client19.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -3070,7 +3070,7 @@ client20.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**DONE ..**!");
+          message.reply("**هـاتـم😂..**!");
         })
         .catch(console.log);
     } else {
@@ -3088,7 +3088,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3104,7 +3104,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3120,7 +3120,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3136,7 +3136,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3152,7 +3152,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3168,7 +3168,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3184,7 +3184,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3200,7 +3200,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3216,7 +3216,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3232,7 +3232,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3248,7 +3248,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3264,7 +3264,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
@@ -3280,7 +3280,7 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("**هـاتـم😂..**!");
 })
 .catch(console.log);
 } else {
