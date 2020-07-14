@@ -4073,8 +4073,8 @@ client20.on("message", message => {
 
 // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 
-client.login("NzMyMjgxOTYwMDAwNjUxMzI0.XwyVEg.Vrof1jz9AE1BlprfsUIkJ9lOccI");
-client2.login("NzMyMjgyNDMyMTU3NjQ2OTQ5.XwyViA.dIk196ol417UoD40A8AOGAxUFoU");
+client.login("");
+client2.login("");
 client3.login(process.env.KahTOKEN3); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 client4.login(process.env.KahTOKEN4);
 client5.login(process.env.KahTOKEN5);
