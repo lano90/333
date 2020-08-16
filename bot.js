@@ -3333,6 +3333,438 @@ client2.on("message", message => {
 
  
 // ======= [ RANDOM - AVATAR end ] ======== //
+const kahAVA = "Ava";
+client1.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client1.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668574640922296330/image0.jpg?width=616&height=598");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+const kahAVA = "Ava";
+client2.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client2.user.setAvatar("https://media.discordapp.net/attachments/654999489714847764/671241308374827008/image3.jpg?width=619&height=599");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+const kahAVA = "Ava";
+client3.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client3.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668881880321359882/image6.jpg?width=611&height=599");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+
+const kahAVA = "Ava";
+client4.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client4.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/671936010246160384/image1.jpg?width=659&height=598");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+
+const kahAVA = "Ava";
+client5.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client5.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668574640922296330/image0.jpg?width=616&height=598");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+const kahAVA = "Ava";
+client6.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client6.user.setAvatar("https://media.discordapp.net/attachments/654999489714847764/671241308374827008/image3.jpg?width=619&height=599");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+const kahAVA = "Ava";
+client7.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client7.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668881880321359882/image6.jpg?width=611&height=599");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+
+const kahAVA = "Ava";
+client8.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client8.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/671936010246160384/image1.jpg?width=659&height=598");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+
+
+const kahAVA = "Ava";
+client9.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client9.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668574640922296330/image0.jpg?width=616&height=598");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+const kahAVA = "Ava";
+client10.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client10.user.setAvatar("https://media.discordapp.net/attachments/654999489714847764/671241308374827008/image3.jpg?width=619&height=599");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+const kahAVA = "Ava";
+client11.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client11.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668881880321359882/image6.jpg?width=611&height=599");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+
+const kahAVA = "Ava";
+client12.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client12.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/671936010246160384/image1.jpg?width=659&height=598");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+
+
+const kahAVA = "Ava";
+client13.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client13.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668574640922296330/image0.jpg?width=616&height=598");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+const kahAVA = "Ava";
+client14.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client14.user.setAvatar("https://media.discordapp.net/attachments/654999489714847764/671241308374827008/image3.jpg?width=619&height=599");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+const kahAVA = "Ava";
+client15.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client15.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668881880321359882/image6.jpg?width=611&height=599");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+
+const kahAVA = "Ava";
+client16.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client16.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/671936010246160384/image1.jpg?width=659&height=598");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+const kahAVA = "Ava";
+client17.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client17.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/671936010246160384/image1.jpg?width=659&height=598");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+
+
+const kahAVA = "Ava";
+client18.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client18.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668574640922296330/image0.jpg?width=616&height=598");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+const kahAVA = "Ava";
+client19.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client19.user.setAvatar("https://media.discordapp.net/attachments/654999489714847764/671241308374827008/image3.jpg?width=619&height=599");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+const kahAVA = "Ava";
+client20.on("message", message => {
+  fs.readFile(`./${kahAVA}.txt`, function(err, data) {
+    if (err) throw err;
+    data = data + "";
+    var lines = data.split("\n");
+    let randomf = lines[Math.floor(Math.random() * lines.length)];
+    let argresult = message.content
+      .split(` `)
+      .slice(1)
+      .join(" ");
+    if (!dinfo.owner.includes(message.author.id)) return;
+    if (message.content.startsWith(prefix + "randomava")) {
+      client20.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668881880321359882/image6.jpg?width=611&height=599");
+      message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
+    }
+  });
+});
+
+
+
+
+
 
 // ======= [ SPAM - MODE  ] ======== //
 
