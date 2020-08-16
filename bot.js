@@ -3324,7 +3324,7 @@ client.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
+      client.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668574641203445760/image1.jpg?width=614&height=599");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3341,7 +3341,7 @@ client2.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client2.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
+      client2.user.setAvatar("");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
