@@ -3324,7 +3324,7 @@ client.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client.user.setAvatar(randomf);
+      client.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3341,7 +3341,7 @@ client2.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client2.user.setAvatar(randomf);
+      client2.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3358,7 +3358,7 @@ client3.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client3.user.setAvatar(randomf);
+      client3.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/737909738557407272/20200729_082313.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3375,7 +3375,7 @@ client4.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client4.user.setAvatar(randomf);
+      client4.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3392,7 +3392,7 @@ client5.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client5.user.setAvatar(randomf);
+      client5.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3409,7 +3409,7 @@ client6.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client6.user.setAvatar(randomf);
+      client6.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3426,7 +3426,7 @@ client7.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client7.user.setAvatar(randomf);
+      client7.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3444,7 +3444,7 @@ client8.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return; // جمــيع الحقوق محفوظة لدي "Kahrbaa"
     if (message.content.startsWith(prefix + "randomava")) {
-      client8.user.setAvatar(randomf);
+      client8.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»*وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا*`);
     }
   });
@@ -3461,7 +3461,7 @@ client9.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client9.user.setAvatar(randomf); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+      client9.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png"); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3478,7 +3478,7 @@ client10.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client10.user.setAvatar(randomf);
+      client10.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3495,7 +3495,7 @@ client11.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client11.user.setAvatar(randomf);
+      client11.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3512,7 +3512,7 @@ client12.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client12.user.setAvatar(randomf);
+      client12.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3529,7 +3529,7 @@ client13.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client13.user.setAvatar(randomf);
+      client13.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3546,7 +3546,7 @@ client14.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client14.user.setAvatar(randomf);
+      client14.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3563,7 +3563,7 @@ client15.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client15.user.setAvatar(randomf);
+      client15.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3582,7 +3582,7 @@ client16.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return; // جمــيع الحقوق محفوظة لدي "Kahrbaa"
     if (message.content.startsWith(prefix + "randomava")) {
-      client16.user.setAvatar(randomf);
+      client16.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3599,7 +3599,7 @@ client17.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return; // جمــيع الحقوق محفوظة لدي "Kahrbaa"
     if (message.content.startsWith(prefix + "randomava")) {
-      client17.user.setAvatar(randomf);
+      client17.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3616,7 +3616,7 @@ client18.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client18.user.setAvatar(randomf);
+      client18.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3633,7 +3633,7 @@ client19.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client19.user.setAvatar(randomf);
+      client19.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
@@ -3650,7 +3650,7 @@ client20.on("message", message => {
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
     if (message.content.startsWith(prefix + "randomava")) {
-      client20.user.setAvatar(randomf);
+      client20.user.setAvatar("https://cdn.discordapp.com/attachments/673708262218268682/743880577291124806/20200814_193756.png");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
   });
