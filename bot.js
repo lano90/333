@@ -82,11 +82,10 @@ const help = `**
 // كههربا (حسن ياسر)
 //embed
 //embed
-client.on("message", message => {
+client6.on("message", message => {
 if (message.author.bot) return;
 
-if (!message.content.startsWith(prefix)) return;
-
+ let prefix = ">"
 let command = message.content.split(" ")[0];
 command = command.slice(prefix.length);
 
