@@ -3365,7 +3365,7 @@ client3.on("message", message => {
       .slice(1)
       .join(" ");
     if (!dinfo.owner.includes(message.author.id)) return;
-    if (message.content.startsWith(prefix + "randomava")) {
+    if (message.content.startsWith(prefix + "random")) {
       client3.user.setAvatar("https://media.discordapp.net/attachments/654999835547795486/668881880321359882/image6.jpg?width=611&height=599");
       message.channel.send(`**»وێـنـەی  ئـەڪـاونـتـەڪـان گــۆڕا**`);
     }
