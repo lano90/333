@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+/*const Discord = require("discord.js");
 const fs = require("fs");
 const cmd = require("node-cmd");
 const client = new Discord.Client();
@@ -39,6 +39,7 @@ client.on("ready", async () => {
     }, dinfo.timespam * 1000);
   });
 });
+*/
 client2.on("ready", async () => {
   fs.readFile(`./${filename}.txt`, function(err, data) {
     if (err) throw err;
