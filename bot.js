@@ -122,7 +122,7 @@ message.delete();
 
 
 
-/*const err = `** \`\`\`  [ERORR] : لازم تسوي رتبة بـ اسم  \`\`\`
+const err = `** \`\`\`  [ERORR] : لازم تسوي رتبة بـ اسم  \`\`\`
          \`\` Role.Kahrbaa \`\` **`;
 
 // ======= [ settings JSON   ] ======== //
@@ -274,7 +274,7 @@ client.on("message", async message => {
     await cmd.run("refresh");
     await message.channel.send("Done,");
   }
-});*/
+});
 // ======= [ Reload JSON - END   ] ======== //
 
 // جمــيع الحقوق محفوظة لدي "Kahrbaa"
@@ -564,7 +564,7 @@ client20.on("ready", () => {
 // DONE //
 // ======= [ Console LOG - END   ] ======== //
 
-/*client.on("message", message => {
+client.on("message", message => {
   if (!dinfo.owner.includes(message.author.id)) return;
   if (message.content.toLowerCase() === config.prefix + "help") {
     message.delete(5000);
