@@ -4164,7 +4164,7 @@ client20.on("message", message => {
 // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 
 client.login("");
-client2.login("");
+client2.login("NzQ0ODY1MjEzNDk2Njg4NzMx.XzpdhA.sJRl9y4W28fFxhvC84zEyYryI9g");
 client3.login(process.env.KahTOKEN3); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 client4.login(process.env.KahTOKEN4);
 client5.login(process.env.KahTOKEN5);
