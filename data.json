@@ -2,8 +2,8 @@
 
 {
    "owner": "719955045264654407",
-  "serverid": "626179892647559169",
+  "serverid": "732581075460816957",
   "channelid": "",
-  "timespam": "NONE",
-  "timestop": "NONE"
+  "timespam": "1000",
+  "timestop": "1000"
 }
