@@ -28,6 +28,146 @@ const client19 = new Discord.Client(); // كههربا (حسن ياسر)
 const client20 = new Discord.Client();
 // كههربا (حسن ياسر)
 
+
+const dinfo = JSON.parse(fs.readFileSync("./data.json", "UTF8"));
+client.on("message", async msg => {
+  if (!msg.guild) return;
+  if (msg.author.bot) return;
+  if (!dinfo)
+    dinfo = {
+      // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+      owner: config.kahrbaaid,
+      serverid: "NONE",
+      channelid: "NONE", // كههربا (حسن ياسر)
+      timespam: "NONE",
+      timestop: "NONE"
+    };
+  if (msg.content.startsWith(config.prefix + "setownerID")) {
+    // كههربا (حسن ياسر)
+    if (msg.channel.type == "dm")
+      // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+      return msg.reply("** لا تستيطع استخدام الامر علي الخاص .. **");
+    if (!dinfo.owner.includes(msg.author.id)) return;
+    let args = msg.content
+      .split(" ")
+      .slice(1)
+      .join(" ");
+    if (!args) return msg.channel.send("**قم بوضع ايدي **");
+    if (args.length > 18 || args.length <= 17) {
+      return msg.channel.send("** تـأكد من ايدي  **");
+    }
+    if (isNaN(args)) return msg.channel.send("**__الارقام فقط__!**");
+    dinfo.owner = args;
+    await msg
+      .reply(`** __ تم وضع ايدي جديد لصاحب التوكانات __  \`${args}\`**`)
+      .then(m => m.delete(5000));
+    fs.writeFile("./data.json", JSON.stringify(dinfo), function(a) {
+      if (a) throw a;
+    });
+    await cmd.run("refresh");
+  }
+  if (msg.content.startsWith(config.prefix + "setserverID")) {
+    if (msg.channel.type == "dm")
+      // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+      return msg.reply("** لا تستيطع استخدام الامر علي الخاص .. **");
+    if (!dinfo.owner.includes(msg.author.id)) return;
+    let args = msg.content
+      .split(" ")
+      .slice(1)
+      .join(" ");
+    if (!args) return msg.channel.send("**قم بوضع ايدي **");
+    if (args.length > 18 || args.length <= 17) {
+      return msg.channel.send("** تـأكد من ايدي  **");
+    }
+    if (isNaN(args)) return msg.channel.send("**__الارقام فقط__!**"); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+    dinfo.serverid = args;
+    await msg
+      .reply(`** __ تم وضع ايدي جديد لسيرفر الاسبام __  \`${args}\`**`)
+      .then(m => m.delete(5000));
+    fs.writeFile("./data.json", JSON.stringify(dinfo), function(a) {
+      if (a) throw a;
+    });
+  }
+  if (msg.content.startsWith(config.prefix + "setchannelID")) {
+    if (msg.channel.type == "dm")
+      return msg.reply("** لا تستيطع استخدام الامر علي الخاص .. **");
+    if (!dinfo.owner.includes(msg.author.id)) return;
+    let args = msg.content
+      .split(" ")
+      .slice(1)
+      .join(" ");
+    if (!args) return msg.channel.send("**قم بوضع ايدي **");
+    if (args.length > 18 || args.length <= 17) {
+      return msg.channel.send("** تـأكد من ايدي  **");
+    }
+    if (isNaN(args)) return msg.channel.send("**__الارقام فقط__!**");
+    dinfo.channelid = args;
+    await msg
+      .reply(`** __ تم وضع ايدي جديد لروم الاسبام __  \`${args}\`**`)
+      .then(m => m.delete(5000));
+    fs.writeFile("./data.json", JSON.stringify(dinfo), function(a) {
+      if (a) throw a;
+    });
+  }
+  if (msg.content.startsWith(config.prefix + "settimeSpam")) {
+    // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+    if (msg.channel.type == "dm")
+      return msg.reply("** لا تستيطع استخدام الامر علي الخاص .. **");
+    if (!dinfo.owner.includes(msg.author.id)) return;
+    let args = msg.content
+      .split(" ")
+      .slice(1)
+      .join(" ");
+    if (!args) return msg.channel.send("**قم بوضع وقت الاسبام بـ الثواني **");
+    if (isNaN(args)) return msg.channel.send("**__الارقام فقط__!**"); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+    dinfo.timespam = args;
+    await msg
+      .reply(`** __ تم اضافة مدة ارسال الاسبام ب الثواني __  \`${args}\`**`)
+      .then(m => m.delete(5000));
+    fs.writeFile("./data.json", JSON.stringify(dinfo), function(a) {
+      if (a) throw a;
+    });
+  }
+  if (msg.content.startsWith(config.prefix + "settimeStop")) {
+    // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+    if (msg.channel.type == "dm")
+      return msg.reply("** لا تستيطع استخدام الامر علي الخاص .. **");
+    if (!dinfo.owner.includes(msg.author.id)) return;
+    let args = msg.content
+      .split(" ")
+      .slice(1)
+      .join(" ");
+    if (!args)
+      return msg.channel.send(
+        "** قم بوضع وقت توقف البوت بعد بداء الاسبام بـ الساعات **"
+      );
+    if (isNaN(args)) return msg.channel.send("**__الارقام فقط__!**"); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+    dinfo.timestop = args;
+    await msg
+      .reply(`** __ تم اضافة مدة توقف الاسبام بـ الساعات  __  \`${args}\`**`)
+      .then(m => m.delete(5000));
+    fs.writeFile("./data.json", JSON.stringify(dinfo), function(a) {
+      if (a) throw a;
+    });
+  }
+}); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+
+client.on("message", async message => {
+  if (message.content === prefix + "reset") {
+    if (!dinfo.owner.includes(message.author.id)) return; // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+    dinfo.serverid = "NONE";
+    dinfo.channelid = "NONE";
+    dinfo.timespam = "NONE"; // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+    dinfo.timestop = "NONE";
+    message.channel.send(`**⚠️ restsettings , <@${dinfo.owner}>**`);
+    fs.writeFile("./data.json", JSON.stringify(dinfo), function(a) {
+      if (a) throw a;
+    });
+    await cmd.run("refresh"); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+  }
+});
+
+
 client6.on("message", message => {
 if (message.author.bot) return;
 
