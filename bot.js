@@ -3327,11 +3327,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3343,11 +3343,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3359,11 +3359,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3375,11 +3375,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3391,11 +3391,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3407,11 +3407,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**DONE ..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
