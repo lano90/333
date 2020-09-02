@@ -2876,11 +2876,11 @@ client.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -2892,11 +2892,11 @@ client2.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -2908,11 +2908,11 @@ client3.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -2924,11 +2924,11 @@ client4.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -2940,11 +2940,11 @@ client5.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -2956,11 +2956,11 @@ client6.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -2972,11 +2972,11 @@ client7.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -2988,11 +2988,11 @@ client8.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3004,11 +3004,11 @@ client9.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3020,12 +3020,12 @@ client10.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
       // جمــيع الحقوق محفوظة لدي "Kahrbaa"
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3037,11 +3037,11 @@ client11.on("message", message => {
       message.member.voiceChannel
         .join() // جمــيع الحقوق محفوظة لدي "Kahrbaa"
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   } // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 });
@@ -3053,11 +3053,11 @@ client12.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3069,11 +3069,11 @@ client13.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3085,11 +3085,11 @@ client14.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3101,11 +3101,11 @@ client15.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3117,11 +3117,11 @@ client16.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3133,11 +3133,11 @@ client17.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3149,11 +3149,11 @@ client18.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3165,11 +3165,11 @@ client19.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3181,11 +3181,11 @@ client20.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**هـاتـم😂..**!");
+          message.reply("");
         })
         .catch(console.log);
     } else {
-      message.reply("**- لازم تخش روم صوتي!**");
+      message.reply("");
     }
   }
 });
@@ -3199,11 +3199,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3215,11 +3215,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3231,11 +3231,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3247,11 +3247,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3263,11 +3263,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3279,11 +3279,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3295,11 +3295,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
@@ -3311,11 +3311,11 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("**هـاتـم😂..**!");
+message.reply("");
 })
 .catch(console.log);
 } else {
-message.reply("**- لازم تخش روم صوتي!**");
+message.reply("");
 }
 }
 });
