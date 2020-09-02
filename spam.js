@@ -489,8 +489,8 @@ client.on("message", message => {
 });
 // ======= [ Refresh MODE end] ======== //
 
-client.login(process.evn.KahTOKEN);
-client2.login(process.evn.KahTOKEN2);
+client.login("NzUwNDA1MTM5ODQzNTE0Mzg4.X06EaQ.EF2HA3aNMLZNnFqe2p6Oz0NZOzU")
+client2.login("NzUwNDAzMjY4NzIyODE5MTcz.X06CIQ.x46x0zm86SKOxV6HUbCG4bue9Vo");
 client3.login(process.env.KahTOKEN3);
 client4.login(process.env.KahTOKEN4);
 client5.login(process.env.KahTOKEN5);
