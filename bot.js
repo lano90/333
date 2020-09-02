@@ -4196,9 +4196,9 @@ client20.on("message", message => {
 
 client.login("");
 client2.login("");
-client3.login(process.env.KahTOKEN3); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
-client4.login(process.env.KahTOKEN4);
-client5.login(process.env.KahTOKEN5);
+client3.login("NzUwNDAzMjY4NzIyODE5MTcz.X06CIQ.x46x0zm86SKOxV6HUbCG4bue9Vo"); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+client4.login("NzUwNDA0NTAzODk0ODg0NDAy.X06DNw.UU0H_O9MKUag8BdY0Slf4SkVP4Q");
+client5.login("NzUwNDA1MTM5ODQzNTE0Mzg4.X06EaQ.EF2HA3aNMLZNnFqe2p6Oz0NZOzU");
 client6.login(process.env.KahTOKEN6);
 client7.login(process.env.KahTOKEN7);
 client8.login(process.env.KahTOKEN8);
