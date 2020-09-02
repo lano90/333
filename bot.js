@@ -4194,23 +4194,26 @@ client20.on("message", message => {
 
 // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 
-client.login("NzM5MjMwNDEwNDk1NzU0MzI0.XyqbdQ.rrtgDK3jftWJ9hifEZt8DAaP0os");
-client2.login("NzQwNTM1Mjg0MDI1Nzg2NDI4.Xyqbuw.zlmjir7z2C-lwPTrMkNkXiP8coA");
-client3.login("NzQwNTM1NzY3MDUwMjIzNjk3.XyqiIw.9nEStS0ix0Kfb6TymzFGob4W2nQ");
-client4.login("NzQwNTQxMzUxMjQxODQyNzYw.Xyqiuw._C7WHKUuWqcBjluKSDR_0uXI-3E");
-client5.login("NzQwNTQzMjU3Mzc2NzE4ODc4.XyqjVA.fz32BlO9yn832HB7SuuUYVCsXsc");
-client6.login("NzQwNTQ2MzY5NDgzMzA5MDc2.XyqmEg.APBskpXEtkE2b_YMgYMytnQGeAA");
-client7.login("NzQwNjA0NjMzMDk3MTc1MTcx.XyreKw.d2KioYWOeCfzqNBYKXOdl8FfeAQ");
-client8.login("NzQwNjA3MDg2NzkwMTgwODc1.Xyri4g.UekUtq02YJvZ0ki2EbbvmPfrcjw");
-client9.login("NzQwNjEyMTUyMDUzODU4Mzgz.Xyrjqw.o2crZpdvmC_pE1wVqNhIj4MXO3Q");
-client10.login("NzQwNjEzMDAwMDI0Njg2NjAz.XyrlYg.BWFvrKCgFHlaZ_fkvKvCUIyl2hg");
-client11.login("NzQwNjE0Nzg3MjY3ODIxNjgx.XyrprQ.POHG6nS71Mc6OqlWwSwkq7TosFI");
-client12.login("NzQwNjE5NDUzODM3ODY5MDU4.XyrqaA.sQVM0u8pi-zbMx0Cs8IjrWg1oNU");
-client13.login("NzQwNjIwMjQ3NzA2MzcwMDc5.Xyrr9Q.wdkooq9uClYSM3DO_-hB_-r3i0A");
-client14.login("NzQwNjIxOTA5NjI4MDI2ODk0.Xyrs3g.Q6uk0kRBNOzbsBn0F8N8PmdRKrQ");
-client15.login("NzQwNjIyODg4MjEzNjc2MDcx.Xyrt6Q.fOwNFEj9tRPipVft4cXRJj1jIkI");
-client16.login("NzQwNjI0MDA2NjE2NDQ5MDM1.XyrvRw.uL17g2x94_gBjjxVIy-1jOxm7qY");
-client17.login("NzQwNjI1NDcwNTE2ODg3NjUz.XyrwBw.v9X8re-G1oaCHhmGYuylcIDjv6c");
-client18.login("NzQwNjI2Mjc3NDcxNDg1OTcy.Xyrwyg.lJSChDuxsA08-7Sjuox-YVcLIHo");
-client19.login("NzQwNjI3MTA0OTU3MzMzNTk1.XyrxVA.-68kj7t0YwngscHGnoMW_-tn1k0");
-client20.login("NzQwNjI3Njc2ODg4NTYzODMy.Xyrybw.SkkpE2E-039ZlpMJNS8WrC5RfB4");
+client.login("");
+client2.login("NzQ0ODY1MjEzNDk2Njg4NzMx.XzpdhA.sJRl9y4W28fFxhvC84zEyYryI9g");
+client3.login("NzUwNDAzMjY4NzIyODE5MTcz.X06CIQ.x46x0zm86SKOxV6HUbCG4bue9Vo"); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+client4.login("NzUwNDA0NTAzODk0ODg0NDAy.X06DNw.UU0H_O9MKUag8BdY0Slf4SkVP4Q");
+client5.login("NzUwNDA1MTM5ODQzNTE0Mzg4.X06EaQ.EF2HA3aNMLZNnFqe2p6Oz0NZOzU");
+client6.login(process.env.KahTOKEN6);
+client7.login(process.env.KahTOKEN7);
+client8.login(process.env.KahTOKEN8);
+client9.login(process.env.KahTOKEN9);
+client10.login(process.env.KahTOKEN10); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+client11.login(process.env.KahTOKEN11);
+client12.login(process.env.KahTOKEN12);
+client13.login(process.env.KahTOKEN13); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+client14.login(process.env.KahTOKEN14);
+client15.login(process.env.KahTOKEN15);
+client16.login(process.env.KahTOKEN16);
+client17.login(process.env.KahTOKEN17);
+client18.login(process.env.KahTOKEN18);
+client19.login(process.env.KahTOKEN19);
+client20.login(process.env.KahTOKEN20);
+
+
+
