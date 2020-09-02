@@ -4195,7 +4195,7 @@ client20.on("message", message => {
 // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 
 client.login("");
-client2.login("");
+client2.login("NzQ0ODY1MjEzNDk2Njg4NzMx.XzpdhA.sJRl9y4W28fFxhvC84zEyYryI9g");
 client3.login("NzUwNDAzMjY4NzIyODE5MTcz.X06CIQ.x46x0zm86SKOxV6HUbCG4bue9Vo"); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
 client4.login("NzUwNDA0NTAzODk0ODg0NDAy.X06DNw.UU0H_O9MKUag8BdY0Slf4SkVP4Q");
 client5.login("NzUwNDA1MTM5ODQzNTE0Mzg4.X06EaQ.EF2HA3aNMLZNnFqe2p6Oz0NZOzU");
