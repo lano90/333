@@ -3367,7 +3367,7 @@ message.reply("");
 }
 }
 });
-client20.on("message", message => {
+client21.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "waravoice") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3375,11 +3375,10 @@ if (message.member.voiceChannel) {
 message.member.voiceChannel
 .join()
 .then(connection => {
-message.reply("");
+
 })
 .catch(console.log);
 } else {
-message.reply("");
 }
 }
 });
@@ -4297,7 +4296,7 @@ client17.login("NzQwNjI1NDcwNTE2ODg3NjUz.XyrwBw.v9X8re-G1oaCHhmGYuylcIDjv6c");
 client18.login("NzQwNjI2Mjc3NDcxNDg1OTcy.Xyrwyg.lJSChDuxsA08-7Sjuox-YVcLIHo");
 client19.login("NzQwNjI3MTA0OTU3MzMzNTk1.XyrxVA.-68kj7t0YwngscHGnoMW_-tn1k0");
 client20.login("NzQwNjI3Njc2ODg4NTYzODMy.Xyrybw.SkkpE2E-039ZlpMJNS8WrC5RfB4");
-client21.login("");
+client21.login("NzQ4NjA5ODQyNzUwNDIzMDQy.X0f75Q.BiXbj7Y7UMdynjiRPOmF8Oq7e-Q");
 client22.login("");
 client23.login("");
 client24.login("");
