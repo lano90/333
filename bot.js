@@ -3429,7 +3429,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client36.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3445,7 +3445,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client37.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3461,7 +3461,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client38.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3477,7 +3477,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client39.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3493,7 +3493,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client40.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3509,7 +3509,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client41.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3525,7 +3525,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client42.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3541,7 +3541,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client43.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3557,7 +3557,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client44.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3573,7 +3573,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client45.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3589,7 +3589,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client46.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3605,7 +3605,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client47.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3621,7 +3621,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client48.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3637,7 +3637,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client49.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
@@ -3653,7 +3653,7 @@ message.member.voiceChannel
 }
 }
 });
-client.on("message", message => {
+client50.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
 if (!dinfo.owner.includes(message.author.id)) return;
