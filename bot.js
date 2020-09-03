@@ -3397,22 +3397,6 @@ message.member.voiceChannel
 }
 }
 });
-client35.on("message", message => {
-if (!message.guild) return;
-if (message.content === prefix + "wara") {
-if (!dinfo.owner.includes(message.author.id)) return;
-if (message.member.voiceChannel) {
-message.member.voiceChannel
-.join()
-.then(connection => {
-
-})
-.catch(console.log);
-} else {
-
-}
-}
-});
 client34.on("message", message => {
 if (!message.guild) return;
 if (message.content === prefix + "wara") {
@@ -3429,6 +3413,1629 @@ message.member.voiceChannel
 }
 }
 });
+client35.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+client.on("message", message => {
+if (!message.guild) return;
+if (message.content === prefix + "wara") {
+if (!dinfo.owner.includes(message.author.id)) return;
+if (message.member.voiceChannel) {
+message.member.voiceChannel
+.join()
+.then(connection => {
+
+})
+.catch(console.log);
+} else {
+
+}
+}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
