@@ -1245,7 +1245,7 @@ client.on("message", async message => {
         .then(message => message.delete(4000));
     if (args[1].length > 18 || args[1].length <= 17) {
       return message.channel
-        .send(" Error : ``تاكد من ايدي الرسالة``")
+        .send("")
         .then(message => message.delete(4000));
     }
     if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
