@@ -1217,7 +1217,7 @@ client20.on("message", async message => {
 
 // ======= [ MODE - React MSG  ] ======== //
 client.on("message", async message => {
-  if (message.content.startsWith(prefix + "j")) {
+  if (message.content.startsWith(prefix + "react")) {
     if (!dinfo.owner.includes(message.author.id)) return;
     let args = message.content.split(" ").slice(1);
     console.log(
