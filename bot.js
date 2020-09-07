@@ -2398,7 +2398,7 @@ client15.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
@@ -2477,7 +2477,7 @@ client16.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
@@ -2556,7 +2556,7 @@ client17.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
@@ -2635,7 +2635,7 @@ client18.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
@@ -2714,7 +2714,7 @@ client19.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
@@ -2793,7 +2793,7 @@ client20.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
