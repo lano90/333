@@ -4459,7 +4459,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client42.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -4517,7 +4517,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client42.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -4538,7 +4538,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client43.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -4596,7 +4596,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client43.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -4617,7 +4617,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client44.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -4675,7 +4675,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client44.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -4696,7 +4696,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client45.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -4754,7 +4754,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client45.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -4775,7 +4775,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client46.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -4833,7 +4833,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client46.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -4854,7 +4854,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client47.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -4912,7 +4912,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client47.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -4933,7 +4933,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client48.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -4991,7 +4991,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client47.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -5012,7 +5012,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client48.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -5070,7 +5070,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client48.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -5091,7 +5091,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client49.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -5149,7 +5149,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client49.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -5170,7 +5170,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client50.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -5228,7 +5228,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client50.emojis.get(
 args
 .slice(2)
 .join(" ")
