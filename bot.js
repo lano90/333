@@ -1288,7 +1288,6 @@ client.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
       } catch (e) {
         return;
       }
@@ -1368,7 +1367,7 @@ client2.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+      
       } catch (e) {
         return;
       } // كههربا (حسن ياسر)
@@ -1447,7 +1446,7 @@ client3.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
@@ -1526,7 +1525,7 @@ client4.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+         
       } catch (e) {
         return;
       }
@@ -1605,7 +1604,7 @@ client5.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+         
       } catch (e) {
         return;
       }
@@ -1684,7 +1683,7 @@ client6.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
@@ -1766,7 +1765,7 @@ client7.on("message", async message => {
       // جمــيع الحقوق محفوظة لدي "Kahrbaa"
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`); // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+        
       } catch (e) {
         // جمــيع الحقوق محفوظة لدي "Kahrbaa"
         return;
@@ -1846,7 +1845,7 @@ client8.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+      
       } catch (e) {
         return;
       }
@@ -1925,7 +1924,7 @@ client9.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
@@ -2004,7 +2003,7 @@ client10.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+         
       } catch (e) {
         return;
       }
@@ -2083,7 +2082,7 @@ client11.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
@@ -2162,7 +2161,7 @@ client12.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
@@ -2241,7 +2240,7 @@ client13.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+        
       } catch (e) {
         return;
       }
@@ -2320,7 +2319,7 @@ client14.on("message", async message => {
     } else {
       try {
         await msg.react(args[2]);
-        await message.reply(`**تم وضع ايموجي بنجاااح ! **`);
+         
       } catch (e) {
         return;
       }
