@@ -2800,6 +2800,3087 @@ client20.on("message", async message => {
     }
   }
 });
+client21.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client21.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client22.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client22.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client23.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client23.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client24.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client24.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client25.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client25.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client26.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client26.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client27.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client27.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client28.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client29.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client30.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client30.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
+client.on("message", async message => {
+if (message.content.startsWith(prefix + "react")) {
+if (!dinfo.owner.includes(message.author.id)) return;
+let args = message.content.split(" ").slice(1);
+console.log(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")
+);
+if (!args[0])
+return message.channel.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+);
+if (args[0].length > 18 || args[0].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الروم``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[0])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[1])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+if (args[1].length > 18 || args[1].length <= 17) {
+return message.channel
+.send(" Error : ``تاكد من ايدي الرسالة``")
+.then(message => message.delete(4000));
+}
+if (isNaN(args[1])) return message.channel.send("**__الارقام فقط__!**");
+if (!args[2])
+return message.channel
+.send(
+" Error : ``" + prefix + "react <ChannelID> <MessageID> <Emoji>``"
+)
+.then(message => message.delete(4000));
+let channel = await message.guild.channels.get(args[0]);
+if (!channel) return;
+let msg = await channel.fetchMessage(args[1]);
+if (!msg) return;
+if (!args.slice(2)) return;
+if (
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2] &&
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2].length == 18
+) {
+try {
+await msg.react(
+client20.emojis.get(
+args
+.slice(2)
+.join(" ")
+.replace(/\<|\>/g, "")
+.split(":")[2]
+)
+);
+} catch (e) {
+return;
+}
+} else {
+try {
+await msg.react(args[2]);
+
+} catch (e) {
+return;
+}
+}
+}
+});
 
 // ======= [ MODE - React MSG END  ] ======== //
 
