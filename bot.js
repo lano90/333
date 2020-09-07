@@ -3511,7 +3511,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client31.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -3569,7 +3569,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client31.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -3590,7 +3590,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client32.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -3648,7 +3648,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client32.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -3669,7 +3669,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client33.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -3727,7 +3727,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client33.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -3748,7 +3748,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client34.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -3806,7 +3806,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client34.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -3827,7 +3827,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client35.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -3885,7 +3885,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client35.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -3906,7 +3906,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client36.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -3964,7 +3964,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client36.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -3985,7 +3985,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client37.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
@@ -4043,7 +4043,7 @@ args
 ) {
 try {
 await msg.react(
-client20.emojis.get(
+client37.emojis.get(
 args
 .slice(2)
 .join(" ")
@@ -4064,7 +4064,7 @@ return;
 }
 }
 });
-client.on("message", async message => {
+client38.on("message", async message => {
 if (message.content.startsWith(prefix + "react")) {
 if (!dinfo.owner.includes(message.author.id)) return;
 let args = message.content.split(" ").slice(1);
