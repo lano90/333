@@ -8980,18 +8980,18 @@ client20.on("message", message => {
 
 
 
+//تۆکینەکان لێرە دا ب
 
-
-client.login("NzYxODk0MjU1NTgwMDIwNzU2.X3hgBA.o1nfZqJG_ZKV0HidGWCJZgqfCAw");
-client2.login("NzYxOTEyMDg0NDk2NjQ2MTU0.X3hi5A.4WoYXStyHsynt9OJ6ad8HruvCy0");
-client3.login("NzYxOTE1MjA4MTQ2NzQ3NDEz.X3hj3g.0cS-Wc51ok__p9l7fgXekYWqvcs");
-client4.login("NzYxOTE2MjM0MjAzMjY3MTQy.X3hmJQ.G97_iAJhNAkFNof8Ey8Qf_NJcLU");
-client5.login("NzYxOTE4NzA4NDY4ODA5NzM5.X3hnww.rIrvHTtXbzvyFc5wil83I0Wnm9Q");
-client6.login("NzYxOTIwNDQ4NDM0MTQzMjgy.X3hpDQ.PnHR-5l0OtirA9eXlRNfsSWAgaU");
-client7.login("NzYxOTIxODA1MDI2OTgzOTM3.X3hp9A.wuibGpyBgHxj1YqiVU8xevCkkws");
-client8.login("NzYxOTIyNzkwNDI5MTYzNTMw.X3hrDQ.IunA3TjthvH8RkBSSxcDyENBvBQ");
-client9.login("NzYxOTIzOTM2NjMxMTI4MDc0.X3hr3Q.ZXJ2viuNn-10lRE3kJpqkpJj7Dc");
-client10.login("NzYxOTI0ODQ1NDUyNjU2Njgx.X3ht6Q.9jEFEc0s--tMZM0dzxBRa0_Ah6c");
+client.login("");
+client2.login("");
+client3.login("");
+client4.login("");
+client5.login("");
+client6.login("");
+client7.login("");
+client8.login("");
+client9.login("");
+client10.login("");
 client11.login("");
 client12.login("");
 client13.login("");
