@@ -19,13 +19,13 @@ const client9 = new Discord.Client();
 const client10 = new Discord.Client();
 const client11 = new Discord.Client();
 const client12 = new Discord.Client();
-const client13 = new Discord.Client(); // كههربا (حسن ياسر)
+const client13 = new Discord.Client(); 
 const client14 = new Discord.Client();
 const client15 = new Discord.Client();
 const client16 = new Discord.Client();
 const client17 = new Discord.Client();
 const client18 = new Discord.Client();
-const client19 = new Discord.Client(); // كههربا (حسن ياسر)
+const client19 = new Discord.Client(); 
 const client20 = new Discord.Client();
 const client21 = new Discord.Client();
 const client22 = new Discord.Client();
@@ -107,55 +107,16 @@ const client97 = new Discord.Client();
 const client98 = new Discord.Client();
 const client99 = new Discord.Client();
 const client100 = new Discord.Client();
-// كههربا (حسن ياسر)
+
 const help = `**
-       \`\`\`  Main Commands  :   \`\`\`
-                  
-- ${config.prefix}spam on - لتشغيل الاسبام 
-         
-- ${config.prefix}spam off - لايقاف الاسبام
-         
-- ${config.groupnm}[NumberACC] - لاستخدام امر تحويل الفلوس (Say CODE)
-
-- ${config.prefix}react - لضافة ريأكت علي اي رسالة
-         
-- ${config.prefix}stayvoice - لتثبيت الحسابات في روم صوتي
-
-- ${config.prefix}randomava - لضافة صورة عشوائي لكل حساب
-         
-- ${config.prefix}join [LINK INVITE] - لـ اضافة الحسابات في اي سيرفر 
-
-- ${config.prefix}friend [ID USER] - لـ ارسال طلبات صداقة بـ الحسابات
-
-- ${config.prefix}dly - لجمع المرتب اليومي من جميع الحسابات 
-
-- ${config.prefix}prof - لظهار جميع معلومات الحسابات في البروبوت
-
-- ${config.prefix}cc - لظهار رصيد الحسابات في البروبوت
-
-         \`\`\` Admin Commands : \`\`\` 
-                  
-- ${config.prefix}setownerID [ID NEW OWNER] - لـ تغير ايدي الصاحب
-                  
-- ${config.prefix}setserverID [ID SERVER SPAM] - لـ تحديد سيرفر الاسبام
-                  
-- ${config.prefix}setchannelID [ID CHANNEL SPAM] - لـ تحديد روم الاسبام
-                  
-- ${config.prefix}settimeSpam [TIME SPAM] - لتحديد سرعة الاسبام
-                  
-- ${config.prefix}settimeStop [TIME STOP SPAM] - لتحديد مدة توقف الاسبام بعد تشغيلة
-                  
-- ${config.prefix}reload - لـ اعادة تشغيل البوت  بعد تغير بيانات JSON (مهم جدا بعد م تستخدم اوامر الادمن)
-
-         
+كۆمانده‌كان:
+!react <Channel ID> <Message ID> <Emoji>
 **`;
-// كههربا (حسن ياسر)
-//embed
-//embed
+
 client6.on("message", message => {
 if (message.author.bot) return;
 
- let prefix = ">"
+ let prefix = "!"
 let command = message.content.split(" ")[0];
 command = command.slice(prefix.length);
 
@@ -202,17 +163,16 @@ client.on("message", async msg => {
   if (msg.author.bot) return;
   if (!dinfo)
     dinfo = {
-      // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+    
       owner: config.kahrbaaid,
       serverid: "NONE",
-      channelid: "NONE", // كههربا (حسن ياسر)
+      channelid: "NONE", 
       timespam: "NONE",
       timestop: "NONE"
     };
   if (msg.content.startsWith(config.prefix + "setownerID")) {
-    // كههربا (حسن ياسر)
     if (msg.channel.type == "dm")
-      // جمــيع الحقوق محفوظة لدي "Kahrbaa"
+      
       return msg.reply("** لا تستيطع استخدام الامر علي الخاص .. **");
     if (!dinfo.owner.includes(msg.author.id)) return;
     let args = msg.content
