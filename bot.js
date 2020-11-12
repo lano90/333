@@ -110,7 +110,11 @@ const client100 = new Discord.Client();
 
 const help = `**
 كۆمانده‌كان:
+
+بۆ زیاد كردنی ڕیاكشن
 !react <Channel ID> <Message ID> <Emoji>
+
+بۆ هێنانه‌ ڤۆیسی هه‌موو بۆته‌كان
 **`;
 
 client6.on("message", message => {
@@ -7381,7 +7385,7 @@ message.member.voiceChannel
 
 
 
-//تۆکینەکان لێرە دا ب
+//تۆكینه‌كان لێره‌ جا بنێ
 
 client.login("");
 client2.login("");
