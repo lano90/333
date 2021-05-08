@@ -112,12 +112,12 @@ const help = `**
 كۆمانده‌كان:
 
 بۆ زیاد كردنی ڕیاكشن
-!react <Channel ID> <Message ID> <Emoji>
+react <761219417345359903> <840383330356035594> <Emoji>
 
 بۆ هێنانه‌ ڤۆیسی هه‌موو بۆته‌كان
 **`;
 
-client6.on("message", message => {
+client6.on("wara", message => {
 if (message.author.bot) return;
 
  let prefix = "!"
